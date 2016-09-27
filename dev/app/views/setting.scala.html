@@ -1,0 +1,15 @@
+@* setting Template File *@
+@(param: Any)
+                    	<fieldset>
+                      			<div class="form-group">
+									<label for="job_name">job_max</label>
+										<input type="text" class="form-control" id="job_max" name="job_max" placeholder="job_max" >
+									</div>
+                      			<input class="sf-right sf-btn btn btn-primary btn-lg" id="max-button"  value="submit">
+                      			
+							</fieldset>
+							<script>
+								$("#max-button").click(function(){
+									var max= $("#job_max").val();
+								});
+							</script>		
